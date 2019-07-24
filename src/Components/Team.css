@@ -1,0 +1,13 @@
+.cardTeam {
+    min-height: 100%;
+    transform: scale(.8);
+    transition-duration: .5s;
+}
+
+.slick-center .cardTeam {
+    -webkit-box-shadow: 0px 5px 27px 7px rgba(94, 96, 226, 0.75);
+    -moz-box-shadow: 0px 5px 27px 7px rgba(94, 96, 226, 0.75);
+    box-shadow: 0px 5px 27px 7px rgba(94, 96, 226, 0.75);
+    transition-duration: .5s;
+    transform: scale(1.3);
+}

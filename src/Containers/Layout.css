@@ -1,0 +1,74 @@
+.darkCustom{
+	background-color: rgba(0, 0, 0, 0.7)
+}
+.navItem{
+	color : white;
+}
+
+
+.logoSocial{
+	height: 50px;
+	width: 50px;
+}
+
+.navbar a{
+		color: white;
+	}
+.navbar a:hover{
+	color: white;
+	Text-Decoration: None
+}	
+.navbar .dropdown-menu{
+	background-color: rgba(0,0,0,0.6); 
+}
+.navbar .hoverA:after {
+	display:block;
+	content: '';
+	border-bottom: solid 2px white;  
+	transform: scaleX(0); 
+	transition: transform 250ms ease-in-out;
+}
+.navbar .hoverA:hover:after { transform: scaleX(1); }
+
+
+
+.dropdown-menu .sub-menu {
+  left: 100%;
+  position: absolute;
+  top: 0;
+  visibility: hidden;
+  margin-top: -1px;
+}
+
+.dropdown-menu li:hover .sub-menu {
+  visibility: visible;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.nav-tabs .dropdown-menu,
+.nav-pills .dropdown-menu,
+.navbar .dropdown-menu {
+  margin-top: 0;
+}
+ .navbar-nav .nav-link{
+	color: white !important
+}
+.navbar-nav .nav-link:after{
+	border: 1px white solid !important
+}
+.dropdown-item{
+	color: white !important;
+}
+.dropdown-item:hover{
+	color: black !important;
+}
+.dropdown-item a:hover{
+	color: black !important;
+}
+.footerLink ul li a{
+	text-decoration: none;
+	color: white;
+}

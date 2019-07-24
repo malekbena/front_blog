@@ -1,0 +1,165 @@
+.b {
+    border: 1px red solid;
+}
+
+.cover {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.shadowCustom {
+    -webkit-box-shadow: 0px 5px 27px 7px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 5px 27px 7px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 5px 27px 7px rgba(0, 0, 0, 0.75);
+}
+
+.bgDark {
+    background-color: #2A2F33;
+}
+
+.bgDarkCustom {
+    background-color: rgba(42, 47, 51, 0.3);
+}
+
+.bgBlueCustom {
+    background-color: #43B6C1;
+}
+
+.blueCustom {
+    color: #43B6C1;
+}
+
+.mv-100 {
+    margin: 100px 0;
+}
+
+.mv-150 {
+    margin: 150px 0;
+}
+
+.bgOrange {
+    background-color: rgb(232, 100, 59);
+}
+
+.logo {
+    height: 75px;
+    width: 75px;
+    transition: 0.4s;
+}
+.bigLogo {
+    height: 350px;
+}
+.logoMedium{
+    height: 200px;
+}
+.logoSmall{
+    height: 50px;
+    width: 50px;
+    transition: 0.4s;
+}
+
+.btn-light {
+    color: #2A2F33;
+    background-color: white;
+    border-color: white;
+    padding: 6px 6px;
+    border-radius: 0;
+    text-transform: uppercase;
+    transition-duration: .3s;
+}
+
+.btn-light:hover {
+    color: white;
+    background-color: #43B6C1;
+    border-color: #43B6C1;
+    transition-duration: .3s;
+}
+
+.btn-light:not(:disabled):not(.disabled).active,
+.btn-light:not(:disabled):not(.disabled):active,
+.show>.btn-light.dropdown-toggle {
+    color: #2A2F33;
+    background-color: white;
+    border-color: white;
+}
+
+.btn-light.focus,
+.btn-light:focus {
+    box-shadow: none;
+    outline: none;
+}
+
+.btn-light:not(:disabled):not(.disabled).active:focus,
+.btn-light:not(:disabled):not(.disabled):active:focus,
+.show>.btn-light.dropdown-toggle:focus {
+    box-shadow: none;
+}
+
+.bgLight {
+    background-color: white;
+}
+
+.w-90 {
+    width: 90%;
+}
+
+.linkCustom {
+    color: #2A2F33;
+    padding: 10px 70px;
+
+}
+
+.linkCustom:hover {
+    color: white;
+    text-decoration: none
+}
+
+.whiteText {
+    color : white;
+}
+
+.postContainer {
+    color : white;
+}
+.pageCover{
+    max-height: 1500px;
+}
+.preview {
+    overflow: hidden; 
+    height: 200px;
+    line-height: 16px; 
+    word-wrap: break-word;
+    }
+    
+.preview:after { 
+        content: "..."; 
+        background: #2A2F33
+}
+.postPreview{
+    text-overflow: ellipsis; 
+    overflow: hidden; 
+    white-space: nowrap; 
+    width: 350px;
+    height: 50px;
+}
+
+@media only screen and (max-width: 600px) {
+    .postPreview {
+        width: 250px;
+        height: 50px;  
+    }
+    .linkCustom{
+        padding: 5px 30px;
+    }
+    
+  }
+
+.legend{
+    color : white;
+    font-size: 0.8em;
+    font-style: italic;
+}
+
+
+

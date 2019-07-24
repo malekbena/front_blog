@@ -1,0 +1,11 @@
+.cardPartner{
+    height: 100%;
+}
+
+.cardPartner img{
+max-width: 50px;
+max-height: 50px;
+}
+.partnersTitle{
+    font-size: 2em;
+}

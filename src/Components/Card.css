@@ -1,0 +1,8 @@
+.cardCustom{
+    height: 500px;
+}
+@media only screen and (max-width: 600px) {
+    .cardCustom {
+        height: 150px;
+        }
+  }
